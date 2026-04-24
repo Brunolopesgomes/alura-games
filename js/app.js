@@ -7,7 +7,7 @@ function alterarStatus(id){
 if(botao.classList.contains('dashboard__item__button')){
     botao.classList.remove('dashboard__item__button');
     botao.classList.add('dashboard__item__button--return');
-    botao.textContent = 'Devoler';
+    botao.textContent = 'Devolver';
 }else{
     botao.classList.remove('dashboard__item__button--return');
     botao.classList.add('dashboard__item__button');
