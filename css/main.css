@@ -218,7 +218,7 @@
 
 }
 /* Telas muito pequenas */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 425px) {
 
 .dashboard__itens{
     gap: 50px;
