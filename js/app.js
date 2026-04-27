@@ -22,5 +22,4 @@ else{
     imagem.classList.add('dashboard__item__img');
 }
 
-
 }
