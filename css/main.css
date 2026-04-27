@@ -11,15 +11,12 @@
     background: rgb(0, 0, 0);
     background: linear-gradient(to bottom , black,black, black , black,black,blue );
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
     box-sizing: border-box;
     
 }
 
-.main {
+.container__main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,13 +81,11 @@
 }
 
 .dashboard__item__img {
-    
     box-shadow: 0px 0px 24px 8px rgba(24, 118, 232, 0.25);
     width: 280px;
     height: auto;
       border-radius: 15px;
 }
-
 
 .dashboard__item__img img {
     width: 100%;
@@ -225,6 +220,12 @@
 }
 /* Telas muito pequenas */
 @media screen and (max-width: 425px) {
+
+
+.divisor__bar{
+    width: 30%;
+}
+
 
 .dashboard__itens{
     gap: 50px;
