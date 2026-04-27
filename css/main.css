@@ -164,6 +164,11 @@
 /* Celulares */
 @media screen and (max-width: 768px) {
 
+.divisor__bar{
+    width: 30%;
+}
+
+
 .body {
     padding: 1rem;
 }
@@ -172,14 +177,6 @@
     font-size: 2.5rem;
 }
 
-.divisor {
-    gap: 20px;
-    margin: 40px 0;
-}
-
-.divisor__line {
-    width: 100px;
-}
 
 .dashboard {
     width: 90%;
@@ -226,7 +223,10 @@
     width: 30%;
 }
 
+.divisor__line{
+width: 30%;
 
+}
 .dashboard__itens{
     gap: 50px;
 }
